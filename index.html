@@ -182,10 +182,7 @@
             />
           </a>
         </div>
-        <!-- <div class="language-switcher">
-          <button id="english-btn">EN</button>
-          <button id="arabic-btn" style="display: none">العربية</button>
-        </div> -->
+
         <nav class="main-navigation">
           <div class="menu-cover-pattern header-container dsn-container"></div>
           <ul id="dsn-primary-list" class="primary-nav h2">
@@ -211,6 +208,7 @@
             </li>
           </ul>
         </nav>
+
         <div class="dsn-btn dsn-btn-shape d-none d-lg-flex">
           <a
             class="button background-theme effect-ajax d-flex align-items-center"
@@ -271,13 +269,6 @@
         <!-- ========== Hero Section ========== -->
         <section class="hero">
           <div class="hero__bg"></div>
-          <!-- <video class="hero-video" autoplay muted loop playsinline>
-            <source
-              src="assets/videos/latest-work/video-2.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support video playback.
-          </video> -->
           <div class="hero-content">
             <h1 class="font-weight-bold dsn-up">WELCOME IN THEMEC</h1>
             <p style="max-width: 600px" class="dsn-up">
@@ -355,18 +346,6 @@
 
           <!-- ========== clients ========== -->
           <section class="clients p-relative section-padding dsn-skew-scroll">
-            <!-- <div class="p-absolute top-0 left-0 bottom-0 w-100 h-100">
-              <div
-                class="img-box-parallax before-z-index w-100 h-100 p-absolute top-0 bottom-0 left-0"
-                data-dsn-grid="move-up"
-              >
-                <img
-                  class="has-bigger-scale cover-bg-img has-direction"
-                  src="assets/img/second-pattern.png"
-                  alt=""
-                />
-              </div>
-            </div> -->
             <div class="pb-50 text-center dsn-up">
               <span class="badge-rounded dsn-fill" style="margin-bottom: 20px">
                 <span>OUR CLIENTS</span>
@@ -611,6 +590,21 @@
 
           <!-- ========== Latest work ========== -->
           <section class="latest-work section-padding background-section">
+            <img
+              class="latest-work__shape-left"
+              src="/assets/img/latest-work-left-shape.svg"
+              alt="arrow shape"
+              width="300"
+              height="120"
+            />
+
+            <img
+              class="latest-work__shape-right"
+              src="/assets/img/latest-work-right-shape.svg"
+              alt="arrow shape"
+              width="300"
+              height="120"
+            />
             <div class="container">
               <div class="dsn-fill mb-50 d-flex flex-column">
                 <div class="section-title">
@@ -651,102 +645,158 @@
             </div>
 
             <div class="container">
-              <!-- Slider main container -->
-              <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide">Slide 1</div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
-                  ...
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+              <div class="ggi">
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="latest-work__card dsn-up">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="latest-work__card-video lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                      </div>
 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                      <div class="swiper-slide">
+                        <div class="latest-work__card dsn-up">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="latest-work__card-video lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                      </div>
 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
-              </div>
-              <div class="d-grid grid-2 grid-lg-3">
-                <div class="box-video main-radius">
-                  <video
-                    src="assets/videos/latest-work/video-1.mp4"
-                    class="lazy-video cover-bg-vid main-radius"
-                    type="video/mp4"
-                    muted
-                    loop
-                    playsinline
-                    preload="metadata"
-                    poster="assets/img/posters/pos1.jpg"
-                  ></video>
-                </div>
+                      <div class="swiper-slide">
+                        <div class="latest-work__card dsn-up">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="latest-work__card-video lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="latest-work__card dsn-up">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="latest-work__card-video lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="latest-work__card dsn-up">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="latest-work__card-video lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="latest-work__card dsn-up">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="latest-work__card-video lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="pagination-container dsn-paginate d-flex justify-content-center mt-5"
+                  >
+                    <div class="prev-paginate dsn-slid-normal">
+                      <span class="btn-navigation">
+                        <svg
+                          width="3rem"
+                          height="3rem"
+                          viewBox="0 0 48 48"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="24"
+                            cy="24"
+                            r="23.5"
+                            fill="#171717"
+                            stroke="white"
+                          />
+                          <path
+                            d="M27.5 17.5L20.5 24.5L27.5 31.5"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
 
-                <div class="box-video main-radius">
-                  <video
-                    src="assets/videos/latest-work/video-2.mp4"
-                    class="lazy-video cover-bg-vid main-radius"
-                    type="video/mp4"
-                    muted
-                    loop
-                    playsinline
-                    preload="metadata"
-                    poster="assets/img/posters/pos2.jpg"
-                  ></video>
-                </div>
-
-                <div class="box-video main-radius">
-                  <video
-                    src="assets/videos/latest-work/video-3.mp4"
-                    class="lazy-video cover-bg-vid main-radius"
-                    type="video/mp4"
-                    muted
-                    loop
-                    playsinline
-                    preload="metadata"
-                    poster="assets/img/posters/pos3.jpg"
-                  ></video>
-                </div>
-                <div class="box-video main-radius">
-                  <video
-                    src="assets/videos/latest-work/video-1.mp4"
-                    class="lazy-video cover-bg-vid main-radius"
-                    type="video/mp4"
-                    muted
-                    loop
-                    playsinline
-                    preload="metadata"
-                    poster="assets/img/posters/pos1.jpg"
-                  ></video>
-                </div>
-
-                <div class="box-video main-radius">
-                  <video
-                    src="assets/videos/latest-work/video-2.mp4"
-                    class="lazy-video cover-bg-vid main-radius"
-                    type="video/mp4"
-                    muted
-                    loop
-                    playsinline
-                    preload="metadata"
-                    poster="assets/img/posters/pos2.jpg"
-                  ></video>
-                </div>
-
-                <div class="box-video main-radius">
-                  <video
-                    src="assets/videos/latest-work/video-3.mp4"
-                    class="lazy-video cover-bg-vid main-radius"
-                    type="video/mp4"
-                    muted
-                    loop
-                    playsinline
-                    preload="metadata"
-                    poster="assets/img/posters/pos3.jpg"
-                  ></video>
+                    <div class="next-paginate dsn-slid-normal">
+                      <span class="btn-navigation">
+                        <svg
+                          width="3rem"
+                          height="3rem"
+                          viewBox="0 0 48 48"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="24"
+                            cy="24"
+                            r="23.5"
+                            fill="#171717"
+                            stroke="white"
+                          />
+                          <path
+                            d="M20.5 17.5L27.5 24.5L20.5 31.5"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -776,218 +826,168 @@
                   alt="our process timeline"
                   width="100%"
                   height="2500px"
+                  class="our-process__steps-img"
                 />
-              </div>
-              <div class="process-steps">
-                <div class="process-container">
-                  <div class="process-card dsn-up">
-                    <img
-                      src="assets/img/process/script.jpg"
-                      alt="Scriptwriting-img"
-                    />
-                    <h3>Scriptwriting</h3>
-                  </div>
-                  <svg
-                    class="dsn-up svg-arrow"
-                    width="168"
-                    height="168"
-                    viewBox="0 0 168 168"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clip-path="url(#clip0_2611_728)">
-                      <mask
-                        maskUnits="userSpaceOnUse"
-                        x="0"
-                        y="0"
-                        width="168"
-                        height="168"
-                      >
-                        <path
-                          d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
-                          fill="white"
-                        ></path>
-                      </mask>
-                      <g mask="url(#mask0_2611_728)">
-                        <path
-                          d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
-                          fill="#3D3D3D"
-                        ></path>
-                        <path
-                          d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
-                          fill="#3D3D3D"
-                        ></path>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath>
-                        <rect
-                          width="168"
-                          height="168"
-                          fill="white"
-                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
-                        ></rect>
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <div class="process-card dsn-up">
-                    <img
-                      src="assets/img/process/boarding.jpg"
-                      alt="Storyboarding-img"
-                    />
-                    <h3>Storyboarding</h3>
-                  </div>
-                  <svg
-                    class="dsn-up svg-arrow"
-                    width="168"
-                    height="168"
-                    viewBox="0 0 168 168"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g transform="scale(-1, 1) translate(-168, 0)">
-                      <g clip-path="url(#clip0_2611_728)">
-                        <mask
-                          maskUnits="userSpaceOnUse"
-                          x="0"
-                          y="0"
-                          width="168"
-                          height="168"
-                        >
-                          <path
-                            d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
-                            fill="white"
-                          ></path>
-                        </mask>
-                        <g mask="url(#mask0_2611_728)">
-                          <path
-                            d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
-                            fill="#3D3D3D"
-                          ></path>
-                          <path
-                            d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
-                            fill="#3D3D3D"
-                          ></path>
-                        </g>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath>
-                        <rect
-                          width="168"
-                          height="168"
-                          fill="white"
-                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
-                        ></rect>
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <div class="process-card dsn-up">
-                    <img
-                      src="assets/img/process/design.jpg"
-                      alt="Designing-img"
-                    />
-                    <h3>Designing</h3>
-                  </div>
-                  <svg
-                    class="dsn-up svg-arrow"
-                    width="168"
-                    height="168"
-                    viewBox="0 0 168 168"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clip-path="url(#clip0_2611_728)">
-                      <mask
-                        maskUnits="userSpaceOnUse"
-                        x="0"
-                        y="0"
-                        width="168"
-                        height="168"
-                      >
-                        <path
-                          d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
-                          fill="white"
-                        ></path>
-                      </mask>
-                      <g mask="url(#mask0_2611_728)">
-                        <path
-                          d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
-                          fill="#3D3D3D"
-                        ></path>
-                        <path
-                          d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
-                          fill="#3D3D3D"
-                        ></path>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath>
-                        <rect
-                          width="168"
-                          height="168"
-                          fill="white"
-                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
-                        ></rect>
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <div class="process-card dsn-up">
-                    <img
-                      src="assets/img/process/animation.gif"
-                      alt="Animation-img"
-                    />
-                    <h3>Animation</h3>
-                  </div>
-                  <svg
-                    class="dsn-up svg-arrow"
-                    width="168"
-                    height="168"
-                    viewBox="0 0 168 168"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g transform="scale(-1, 1) translate(-168, 0)">
-                      <g clip-path="url(#clip0_2611_728)">
-                        <mask
-                          maskUnits="userSpaceOnUse"
-                          x="0"
-                          y="0"
-                          width="168"
-                          height="168"
-                        >
-                          <path
-                            d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
-                            fill="white"
-                          ></path>
-                        </mask>
-                        <g mask="url(#mask0_2611_728)">
-                          <path
-                            d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
-                            fill="#3D3D3D"
-                          ></path>
-                          <path
-                            d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
-                            fill="#3D3D3D"
-                          ></path>
-                        </g>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath>
-                        <rect
-                          width="168"
-                          height="168"
-                          fill="white"
-                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
-                        ></rect>
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <div class="process-card dsn-up">
-                    <img src="assets/img/process/music.jpg" alt="Music-img" />
-                    <h3>Music</h3>
-                  </div>
+                <!-- card 1 -->
+                <div class="process-steps-card dsn-up">
+                  <span class="process-steps-card__number"> 1 </span>
+                  <h2 class="dsn-fill">Scriptwriting</h2>
+                  <p class="process-steps-card__text">
+                    Crafting a compelling script involves weaving together
+                    dialogue, action, and emotion. Each line should resonate
+                    with the audience, drawing them into the story. Remember, a
+                    great script is the backbone of any successful production!
+                  </p>
+                  <ul class="process-steps-card__list">
+                    <li>
+                      <p>
+                        A captivating script combines dialogue, action, and
+                        emotion seamlessly.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Every line must connect with the audience, immersing
+                        them in the narrative.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        An exceptional script serves as the foundation for a
+                        successful production!
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- card 2 -->
+                <div class="process-steps-card dsn-up">
+                  <span class="process-steps-card__number"> 2 </span>
+                  <h2 class="dsn-fill">Storyboarding</h2>
+                  <p class="process-steps-card__text">
+                    Creating an engaging storyboard requires a blend of visuals,
+                    narrative, and pacing. Each frame should captivate viewers,
+                    pulling them deeper into the narrative. Keep in mind, a
+                    well-crafted storyboard is essential for any successful
+                    film!
+                  </p>
+                  <ul class="process-steps-card__list">
+                    <li>
+                      <p>
+                        An engaging storyboard combines visuals, narrative, and
+                        pacing to draw viewers in.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Each frame should captivate the audience and enhance the
+                        storytelling experience.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A well-crafted storyboard is crucial for the success of
+                        any film production!
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- card 3 -->
+                <div class="process-steps-card dsn-up">
+                  <span class="process-steps-card__number"> 3 </span>
+                  <h2 class="dsn-fill">Designing</h2>
+                  <p class="process-steps-card__text">
+                    Creating an engaging script means blending dialogue, action,
+                    and emotion seamlessly. Every line must connect with the
+                    audience, pulling them into the narrative. A strong script
+                    is essential for any successful production!
+                  </p>
+                  <ul class="process-steps-card__list">
+                    <li>
+                      <p>
+                        An engaging script combines dialogue, action, and
+                        emotion for a seamless experience.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Each line should resonate with the audience, drawing
+                        them into the story.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A well-crafted script is crucial for the success of any
+                        production!
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- card 4 -->
+                <div class="process-steps-card dsn-up">
+                  <span class="process-steps-card__number"> 4 </span>
+                  <h2 class="dsn-fill">Animation</h2>
+                  <p class="process-steps-card__text">
+                    Creating an engaging animation script means blending
+                    dialogue, visuals, and feelings seamlessly. Every line
+                    should captivate viewers, pulling them deeper into the
+                    narrative. A well-crafted script is essential for any
+                    animated masterpiece!
+                  </p>
+                  <ul class="process-steps-card__list">
+                    <li>
+                      <p>
+                        An engaging animation script combines dialogue, visuals,
+                        and emotions effectively.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Each line should draw viewers in, enhancing their
+                        connection to the story.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A thoughtfully written script is crucial for crafting
+                        any animated work of art!
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- card 5 -->
+                <div class="process-steps-card dsn-up">
+                  <span class="process-steps-card__number"> 5 </span>
+                  <h2 class="dsn-fill">Music</h2>
+                  <p class="process-steps-card__text">
+                    Creating a captivating melody is all about blending rhythm,
+                    harmony, and emotion. Each note should connect with
+                    listeners, inviting them to feel the music. Remember, a
+                    memorable tune can elevate any performance!
+                  </p>
+                  <ul class="process-steps-card__list">
+                    <li>
+                      <p>
+                        Blend rhythm, harmony, and emotion to craft a
+                        captivating melody.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Ensure each note resonates with listeners, drawing them
+                        into the music.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A memorable tune can significantly enhance any
+                        performance!
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -996,6 +996,13 @@
 
           <!-- ========== Services ========== -->
           <section class="services-section section-padding background-section">
+            <img
+              class="services-section__shape"
+              src="/assets/img/services-shape.svg"
+              alt="arrow shape"
+              width="300"
+              height="120"
+            />
             <div class="container">
               <div
                 class="dsn-fill mb-50 d-flex flex-column align-items-center text-center"
@@ -1005,1039 +1012,211 @@
                     <span>SERVICES</span>
                   </span>
                 </div>
-                <h2 class="dsn-up">Our services</h2>
-                <p class="dsn-up pt-10 mx-auto" style="max-width: 600px">
+                <h2 class="dsn-up">Our Services</h2>
+                <p
+                  class="dsn-up pt-10 mx-auto text-center"
+                  style="max-width: 600px"
+                >
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Illum blanditiis eius voluptatum cumque necessitatibus
                   pariatur id corporis repellat perferendis maiores!
                 </p>
               </div>
+
               <div class="ggi">
-                <h3>CGI & VFX</h3>
-                <div
-                  class="dsn-swiper"
-                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
-                >
-                  <div class="dsn-paginate d-flex justify-content-end pb-20">
-                    <div class="prev-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
+                <div class="services-grid">
+                  <div class="services-grid__card">
+                    <div class="services-grid__card-video">
+                      <video
+                        src="assets/videos/latest-work/video-1.mp4"
+                        class="lazy-video cover-bg-vid"
+                        type="video/mp4"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/img/posters/pos1.jpg"
+                      ></video>
                     </div>
-
-                    <div class="next-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
+                    <div class="services-grid__card-info">
+                      <h2>CGI & VFX</h2>
+                      <a href="#" class="services-grid__card-link">
                         <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
                         >
                           <path
-                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                            fill=""
-                          ></path>
+                            d="M13.7464 3.26137C13.3385 2.88907 12.706 2.91795 12.3337 3.32588C11.9614 3.73382 11.9902 4.36632 12.3982 4.73863L13.7464 3.26137ZM19.0097 9.41883L19.6838 8.68021L19.0097 9.41883ZM19.0097 14.5812L18.3356 13.8425L19.0097 14.5812ZM12.3982 19.2614C11.9902 19.6337 11.9614 20.2662 12.3337 20.6741C12.706 21.082 13.3385 21.1109 13.7464 20.7386L12.3982 19.2614ZM2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM12.3982 4.73863L18.3356 10.1575L19.6838 8.68021L13.7464 3.26137L12.3982 4.73863ZM18.3356 13.8425L12.3982 19.2614L13.7464 20.7386L19.6838 15.3198L18.3356 13.8425ZM18.3356 10.1575C19.0207 10.7827 19.4565 11.1836 19.734 11.5167C19.9942 11.8292 20 11.9499 20 12H22C22 11.2855 21.6741 10.721 21.2709 10.2369C20.8849 9.77334 20.3256 9.26591 19.6838 8.68021L18.3356 10.1575ZM19.6838 15.3198C20.3256 14.7341 20.8849 14.2267 21.2709 13.7631C21.6741 13.279 22 12.7145 22 12H20C20 12.0501 19.9942 12.1708 19.734 12.4833C19.4565 12.8164 19.0207 13.2173 18.3356 13.8425L19.6838 15.3198ZM21 11H2V13H21V11Z"
+                            fill="white"
+                          />
                         </svg>
-                      </span>
+                      </a>
                     </div>
                   </div>
-                  <div class="swiper-container swiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
 
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-2.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos2.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea eligendi nulla eos tempora fugit
-                            repudiandae.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
+                  <div class="services-grid__card">
+                    <div class="services-grid__card-video">
+                      <video
+                        src="assets/videos/latest-work/video-2.mp4"
+                        class="lazy-video cover-bg-vid"
+                        type="video/mp4"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/img/posters/pos2.jpg"
+                      ></video>
                     </div>
-                  </div>
-                </div>
-                <a
-                  href="videos.html"
-                  class="d-flex align-items-center mt-50 gap-10"
-                  >View All
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="svg-arrow"
-                    width="17"
-                    height="15"
-                    viewBox="0 0 17 15"
-                    fill="#fff"
-                  >
-                    <path
-                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-
-              <div class="3d mt-50">
-                <h3>3D modeling</h3>
-                <div
-                  class="dsn-swiper"
-                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
-                >
-                  <div class="dsn-paginate d-flex justify-content-end pb-20">
-                    <div class="prev-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
+                    <div class="services-grid__card-info">
+                      <h2>3D modeling</h2>
+                      <a href="#" class="services-grid__card-link">
                         <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
                         >
                           <path
-                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
-                            fill=""
-                          ></path>
+                            d="M13.7464 3.26137C13.3385 2.88907 12.706 2.91795 12.3337 3.32588C11.9614 3.73382 11.9902 4.36632 12.3982 4.73863L13.7464 3.26137ZM19.0097 9.41883L19.6838 8.68021L19.0097 9.41883ZM19.0097 14.5812L18.3356 13.8425L19.0097 14.5812ZM12.3982 19.2614C11.9902 19.6337 11.9614 20.2662 12.3337 20.6741C12.706 21.082 13.3385 21.1109 13.7464 20.7386L12.3982 19.2614ZM2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM12.3982 4.73863L18.3356 10.1575L19.6838 8.68021L13.7464 3.26137L12.3982 4.73863ZM18.3356 13.8425L12.3982 19.2614L13.7464 20.7386L19.6838 15.3198L18.3356 13.8425ZM18.3356 10.1575C19.0207 10.7827 19.4565 11.1836 19.734 11.5167C19.9942 11.8292 20 11.9499 20 12H22C22 11.2855 21.6741 10.721 21.2709 10.2369C20.8849 9.77334 20.3256 9.26591 19.6838 8.68021L18.3356 10.1575ZM19.6838 15.3198C20.3256 14.7341 20.8849 14.2267 21.2709 13.7631C21.6741 13.279 22 12.7145 22 12H20C20 12.0501 19.9942 12.1708 19.734 12.4833C19.4565 12.8164 19.0207 13.2173 18.3356 13.8425L19.6838 15.3198ZM21 11H2V13H21V11Z"
+                            fill="white"
+                          />
                         </svg>
-                      </span>
-                    </div>
-
-                    <div class="next-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
+                      </a>
                     </div>
                   </div>
-                  <div class="swiper-container swiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
 
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-2.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos2.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea eligendi nulla eos tempora fugit
-                            repudiandae.
-                          </p>
-                        </div>
-                      </div>
+                  <div class="services-grid__card">
+                    <div class="services-grid__card-video">
+                      <video
+                        src="assets/videos/latest-work/video-3.mp4"
+                        class="lazy-video cover-bg-vid"
+                        type="video/mp4"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/img/posters/pos3.jpg"
+                      ></video>
+                    </div>
+                    <div class="services-grid__card-info">
+                      <h2>Animation</h2>
+                      <a href="#" class="services-grid__card-link">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.7464 3.26137C13.3385 2.88907 12.706 2.91795 12.3337 3.32588C11.9614 3.73382 11.9902 4.36632 12.3982 4.73863L13.7464 3.26137ZM19.0097 9.41883L19.6838 8.68021L19.0097 9.41883ZM19.0097 14.5812L18.3356 13.8425L19.0097 14.5812ZM12.3982 19.2614C11.9902 19.6337 11.9614 20.2662 12.3337 20.6741C12.706 21.082 13.3385 21.1109 13.7464 20.7386L12.3982 19.2614ZM2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM12.3982 4.73863L18.3356 10.1575L19.6838 8.68021L13.7464 3.26137L12.3982 4.73863ZM18.3356 13.8425L12.3982 19.2614L13.7464 20.7386L19.6838 15.3198L18.3356 13.8425ZM18.3356 10.1575C19.0207 10.7827 19.4565 11.1836 19.734 11.5167C19.9942 11.8292 20 11.9499 20 12H22C22 11.2855 21.6741 10.721 21.2709 10.2369C20.8849 9.77334 20.3256 9.26591 19.6838 8.68021L18.3356 10.1575ZM19.6838 15.3198C20.3256 14.7341 20.8849 14.2267 21.2709 13.7631C21.6741 13.279 22 12.7145 22 12H20C20 12.0501 19.9942 12.1708 19.734 12.4833C19.4565 12.8164 19.0207 13.2173 18.3356 13.8425L19.6838 15.3198ZM21 11H2V13H21V11Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
 
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
+                  <div class="services-grid__card">
+                    <div class="services-grid__card-video">
+                      <video
+                        src="assets/videos/latest-work/video-1.mp4"
+                        class="lazy-video cover-bg-vid"
+                        type="video/mp4"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/img/posters/pos1.jpg"
+                      ></video>
+                    </div>
+                    <div class="services-grid__card-info">
+                      <h2>AR Marketing</h2>
+                      <a href="#" class="services-grid__card-link">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.7464 3.26137C13.3385 2.88907 12.706 2.91795 12.3337 3.32588C11.9614 3.73382 11.9902 4.36632 12.3982 4.73863L13.7464 3.26137ZM19.0097 9.41883L19.6838 8.68021L19.0097 9.41883ZM19.0097 14.5812L18.3356 13.8425L19.0097 14.5812ZM12.3982 19.2614C11.9902 19.6337 11.9614 20.2662 12.3337 20.6741C12.706 21.082 13.3385 21.1109 13.7464 20.7386L12.3982 19.2614ZM2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM12.3982 4.73863L18.3356 10.1575L19.6838 8.68021L13.7464 3.26137L12.3982 4.73863ZM18.3356 13.8425L12.3982 19.2614L13.7464 20.7386L19.6838 15.3198L18.3356 13.8425ZM18.3356 10.1575C19.0207 10.7827 19.4565 11.1836 19.734 11.5167C19.9942 11.8292 20 11.9499 20 12H22C22 11.2855 21.6741 10.721 21.2709 10.2369C20.8849 9.77334 20.3256 9.26591 19.6838 8.68021L18.3356 10.1575ZM19.6838 15.3198C20.3256 14.7341 20.8849 14.2267 21.2709 13.7631C21.6741 13.279 22 12.7145 22 12H20C20 12.0501 19.9942 12.1708 19.734 12.4833C19.4565 12.8164 19.0207 13.2173 18.3356 13.8425L19.6838 15.3198ZM21 11H2V13H21V11Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="services-grid__card">
+                    <div class="services-grid__card-video">
+                      <video
+                        src="assets/videos/latest-work/video-2.mp4"
+                        class="lazy-video cover-bg-vid"
+                        type="video/mp4"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/img/posters/pos3.jpg"
+                      ></video>
+                    </div>
+                    <div class="services-grid__card-info">
+                      <h2>AI</h2>
+                      <a href="#" class="services-grid__card-link">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.7464 3.26137C13.3385 2.88907 12.706 2.91795 12.3337 3.32588C11.9614 3.73382 11.9902 4.36632 12.3982 4.73863L13.7464 3.26137ZM19.0097 9.41883L19.6838 8.68021L19.0097 9.41883ZM19.0097 14.5812L18.3356 13.8425L19.0097 14.5812ZM12.3982 19.2614C11.9902 19.6337 11.9614 20.2662 12.3337 20.6741C12.706 21.082 13.3385 21.1109 13.7464 20.7386L12.3982 19.2614ZM2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM12.3982 4.73863L18.3356 10.1575L19.6838 8.68021L13.7464 3.26137L12.3982 4.73863ZM18.3356 13.8425L12.3982 19.2614L13.7464 20.7386L19.6838 15.3198L18.3356 13.8425ZM18.3356 10.1575C19.0207 10.7827 19.4565 11.1836 19.734 11.5167C19.9942 11.8292 20 11.9499 20 12H22C22 11.2855 21.6741 10.721 21.2709 10.2369C20.8849 9.77334 20.3256 9.26591 19.6838 8.68021L18.3356 10.1575ZM19.6838 15.3198C20.3256 14.7341 20.8849 14.2267 21.2709 13.7631C21.6741 13.279 22 12.7145 22 12H20C20 12.0501 19.9942 12.1708 19.734 12.4833C19.4565 12.8164 19.0207 13.2173 18.3356 13.8425L19.6838 15.3198ZM21 11H2V13H21V11Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="services-grid__card">
+                    <div class="services-grid__card-video">
+                      <video
+                        src="assets/videos/latest-work/video-3.mp4"
+                        class="lazy-video cover-bg-vid"
+                        type="video/mp4"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/img/posters/pos3.jpg"
+                      ></video>
+                    </div>
+                    <div class="services-grid__card-info">
+                      <h2>Content Creation</h2>
+                      <a href="#" class="services-grid__card-link">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.7464 3.26137C13.3385 2.88907 12.706 2.91795 12.3337 3.32588C11.9614 3.73382 11.9902 4.36632 12.3982 4.73863L13.7464 3.26137ZM19.0097 9.41883L19.6838 8.68021L19.0097 9.41883ZM19.0097 14.5812L18.3356 13.8425L19.0097 14.5812ZM12.3982 19.2614C11.9902 19.6337 11.9614 20.2662 12.3337 20.6741C12.706 21.082 13.3385 21.1109 13.7464 20.7386L12.3982 19.2614ZM2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM12.3982 4.73863L18.3356 10.1575L19.6838 8.68021L13.7464 3.26137L12.3982 4.73863ZM18.3356 13.8425L12.3982 19.2614L13.7464 20.7386L19.6838 15.3198L18.3356 13.8425ZM18.3356 10.1575C19.0207 10.7827 19.4565 11.1836 19.734 11.5167C19.9942 11.8292 20 11.9499 20 12H22C22 11.2855 21.6741 10.721 21.2709 10.2369C20.8849 9.77334 20.3256 9.26591 19.6838 8.68021L18.3356 10.1575ZM19.6838 15.3198C20.3256 14.7341 20.8849 14.2267 21.2709 13.7631C21.6741 13.279 22 12.7145 22 12H20C20 12.0501 19.9942 12.1708 19.734 12.4833C19.4565 12.8164 19.0207 13.2173 18.3356 13.8425L19.6838 15.3198ZM21 11H2V13H21V11Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <a
-                  href="videos.html"
-                  class="d-flex align-items-center mt-50 gap-10"
-                  >View All
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="svg-arrow"
-                    width="17"
-                    height="15"
-                    viewBox="0 0 17 15"
-                    fill="#fff"
-                  >
-                    <path
-                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-
-              <div class="animation mt-50">
-                <h3>Animation</h3>
-                <div
-                  class="dsn-swiper"
-                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
-                >
-                  <div class="dsn-paginate d-flex justify-content-end pb-20">
-                    <div class="prev-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-
-                    <div class="next-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="swiper-container swiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-2.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos2.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea eligendi nulla eos tempora fugit
-                            repudiandae.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <a
-                  href="videos.html"
-                  class="d-flex align-items-center mt-50 gap-10"
-                  >View All
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="svg-arrow"
-                    width="17"
-                    height="15"
-                    viewBox="0 0 17 15"
-                    fill="#fff"
-                  >
-                    <path
-                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-
-              <div class="marketing mt-50">
-                <h3>AR marketing</h3>
-                <div
-                  class="dsn-swiper"
-                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
-                >
-                  <div class="dsn-paginate d-flex justify-content-end pb-20">
-                    <div class="prev-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-
-                    <div class="next-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="swiper-container swiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-2.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos2.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea eligendi nulla eos tempora fugit
-                            repudiandae.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <a
-                  href="videos.html"
-                  class="d-flex align-items-center mt-50 gap-10"
-                  >View All
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="svg-arrow"
-                    width="17"
-                    height="15"
-                    viewBox="0 0 17 15"
-                    fill="#fff"
-                  >
-                    <path
-                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-
-              <div class="ai mt-50">
-                <h3>AI</h3>
-                <div
-                  class="dsn-swiper"
-                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
-                >
-                  <div class="dsn-paginate d-flex justify-content-end pb-20">
-                    <div class="prev-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-
-                    <div class="next-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="swiper-container swiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-2.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos2.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea eligendi nulla eos tempora fugit
-                            repudiandae.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <a
-                  href="videos.html"
-                  class="d-flex align-items-center mt-50 gap-10"
-                  >View All
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="svg-arrow"
-                    width="17"
-                    height="15"
-                    viewBox="0 0 17 15"
-                    fill="#fff"
-                  >
-                    <path
-                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-
-              <div class="content-creation mt-50">
-                <h3>Content creation</h3>
-                <div
-                  class="dsn-swiper"
-                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
-                >
-                  <div class="dsn-paginate d-flex justify-content-end pb-20">
-                    <div class="prev-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-
-                    <div class="next-paginate dsn-slid-normal two">
-                      <span class="dsn-icon dsn-icon-heading-color">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="17"
-                          height="15"
-                          viewBox="0 0 17 15"
-                          fill=""
-                        >
-                          <path
-                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                            fill=""
-                          ></path>
-                        </svg>
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="swiper-container swiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-2.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos2.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ea eligendi nulla eos tempora fugit
-                            repudiandae.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-1.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos1.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide box second-radius">
-                        <div class="box-video">
-                          <video
-                            src="assets/videos/latest-work/video-3.mp4"
-                            class="lazy-video cover-bg-vid second-radius"
-                            type="video/mp4"
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                            poster="assets/img/posters/pos3.jpg"
-                          ></video>
-                        </div>
-                        <div class="box-info">
-                          <h6>Video Title</h6>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <a
-                  href="videos.html"
-                  class="d-flex align-items-center mt-50 gap-10"
-                  >View All
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="svg-arrow"
-                    width="17"
-                    height="15"
-                    viewBox="0 0 17 15"
-                    fill="#fff"
-                  >
-                    <path
-                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </section>

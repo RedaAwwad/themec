@@ -3287,3 +3287,251 @@ body .badge-icon {
     font-size: 1.25rem;
   }
 }
+
+.services-section {
+  position: relative;
+}
+
+.services-section .services-section__shape {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  z-index: 1;
+  object-fit: contain;
+  object-position: left;
+}
+
+@media only screen and (max-width: 575px) {
+  .services-section .services-section__shape {
+    top: -4rem;
+    left: -2rem;
+  }
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  column-gap: 1.5rem;
+}
+
+.services-grid__card {
+  width: calc(100% / 2 - 1.5rem);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.services-grid__card:nth-child(even) {
+  transform: translateY(30px);
+}
+
+.services-grid__card .services-grid__card-video {
+  aspect-ratio: 1/1;
+  max-height: 320px;
+  width: 100%;
+}
+
+.services-grid__card .services-grid__card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #29a9e1, #f68722, #f9cd18);
+}
+
+.services-grid__card-info h2 {
+  font-size: 1.8rem;
+  color: #171717;
+}
+
+.services-grid__card .services-grid__card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #171717;
+}
+
+@media only screen and (max-width: 767px) {
+  .services-grid__card {
+    width: 100%;
+  }
+
+  .services-grid__card:nth-child(even) {
+    transform: none;
+  }
+
+  .services-grid__card .services-grid__card-video {
+    max-height: 280px;
+  }
+
+  .services-grid__card-info h2 {
+    font-size: 1.4rem;
+  }
+}
+
+.latest-work {
+  position: relative;
+}
+
+.latest-work__shape-left {
+  position: absolute;
+  left: 0;
+  top: 8rem;
+  z-index: 1;
+  object-fit: contain;
+  object-position: left;
+}
+
+.latest-work__shape-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  object-fit: contain;
+  object-position: right;
+}
+
+@media only screen and (max-width: 1450px) {
+  .latest-work__shape-left {
+    position: absolute;
+    left: -2.5rem;
+    top: -4rem;
+  }
+}
+
+.latest-work__card {
+  position: relative;
+  padding: 1.5rem;
+  height: 480px;
+}
+
+.latest-work__card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: url("/assets/img/card-pattern.webp") no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.latest-work__card-video {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.pagination-container {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.latest-work .btn-navigation {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.our-process__steps {
+  position: relative;
+}
+
+.our-process__steps .process-steps-card {
+  width: 650px;
+  height: 320px;
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #0f0f0f;
+  padding: 1rem 2rem;
+}
+
+.our-process__steps .process-steps-card:nth-child(2) {
+  top: 100px;
+}
+
+.our-process__steps .process-steps-card:nth-child(3) {
+  top: 525px;
+}
+
+.our-process__steps .process-steps-card:nth-child(4) {
+  top: calc(525px * 1.8);
+}
+
+.our-process__steps .process-steps-card:nth-child(5) {
+  top: calc(525px * 2.6);
+}
+
+.our-process__steps .process-steps-card:nth-child(6) {
+  top: calc(525px * 3.4);
+}
+
+@media only screen and (max-width: 991px) {
+  .our-process__steps-img {
+    margin-top: -4rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .our-process__steps-img {
+    display: none;
+  }
+
+  .our-process__steps .process-steps-card {
+    position: static;
+    transform: none;
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+.process-steps-card__number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  background: linear-gradient(to right, #29a9e1, #f68722, #f9cd18);
+  color: #0f0f0f;
+}
+
+.process-steps-card__text {
+  margin-bottom: 1rem;
+}
+
+.process-steps-card__list li {
+  position: relative;
+  padding-left: 25px;
+}
+
+.process-steps-card__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #29a9e1, #f68722, #f9cd18);
+}
