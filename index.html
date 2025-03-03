@@ -1,0 +1,2549 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
+    <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
+
+    <title>Themec</title>
+
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="v-dark dsn-ajax">
+    <!-- Loader -->
+    <div id="dsn_preloader" class="preloader">
+      <div class="dsnload p-absolute">
+        <span class="dsnload__row">
+          <span class="dsnload__img">
+            <img
+              src="assets/img/logo-light.png"
+              class="logo-dark"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/img/logo.png"
+              class="logo-light"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+          </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+          <span class="dsnload__img">
+            <img
+              src="assets/img/logo-light.png"
+              class="logo-dark"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/img/logo.png"
+              class="logo-light"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+          </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+          <span class="dsnload__img">
+            <img
+              src="assets/img/logo-light.png"
+              class="logo-dark"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/img/logo.png"
+              class="logo-light"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+          </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+          <span class="dsnload__img">
+            <img
+              src="assets/img/logo-light.png"
+              class="logo-dark"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+            <img
+              src="assets/img/logo.png"
+              class="logo-light"
+              alt="THEMEC"
+              decoding="async"
+              loading="lazy"
+            />
+          </span>
+        </span>
+      </div>
+
+      <div class="logo-box v-middle">
+        <h3 class="title text-upper">THEMEC</h3>
+      </div>
+
+      <div class="loading-count">
+        <p>0</p>
+      </div>
+
+      <span class="loading-text text-upper mt-30 dsn-container"
+        >Loading ...</span
+      >
+      <div
+        class="bg-load background-section d-flex align-items-end dsn-bg-pattern bg-offset bg-square"
+      >
+        <svg
+          class="dsn-separator-bottom dsn-icon-assistant-color"
+          width="100%"
+          height="100%"
+          viewBox="0 0 100 10"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="path-anim separator__path"
+            data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
+            vector-effect="non-scaling-stroke"
+            d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <svg width="0" height="0" class="p-absolute hidden">
+      <defs>
+        <filter id="buttonFilter">
+          <feGaussianBlur
+            in="SourceGraphic"
+            stdDeviation="5"
+            result="blur"
+          ></feGaussianBlur>
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+            result="buttonFilter"
+          ></feColorMatrix>
+          <feComposite
+            in="SourceGraphic"
+            in2="buttonFilter"
+            operator="atop"
+          ></feComposite>
+          <feBlend in="SourceGraphic" in2="buttonFilter"></feBlend>
+        </filter>
+      </defs>
+    </svg>
+
+    <main id="main_root" class="main-root">
+      <!-- ========== Menu ========== -->
+      <header id="site_menu_header" class="site-header container main d-none">
+        <div class="main-logo">
+          <a
+            href="index.html"
+            data-dsn-text="THEMEC"
+            class="custom-logo-link main-brand effect-ajax"
+            rel="home"
+            aria-current="page"
+          >
+            <img
+              src="assets/img/logo-light.png"
+              class="custom-logo logo-dark"
+              alt="THEMEC"
+            />
+            <img
+              src="assets/img/logo.png"
+              class="custom-logo logo-light"
+              alt="THEMEC"
+            />
+          </a>
+        </div>
+        <!-- <div class="language-switcher">
+          <button id="english-btn">EN</button>
+          <button id="arabic-btn" style="display: none">العربية</button>
+        </div> -->
+        <nav class="main-navigation">
+          <div class="menu-cover-pattern header-container dsn-container"></div>
+          <ul id="dsn-primary-list" class="primary-nav h2">
+            <li class="nav-item has-sub-menu">
+              <a title="Home" href="/" class="active">
+                <span class="overflow">Home</span>
+              </a>
+            </li>
+            <li class="nav-item has-sub-menu">
+              <a title="Videos" href="videos.html">
+                <span class="overflow">Videos</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a title="About" href="about.html">
+                <span class="overflow">About</span>
+              </a>
+            </li>
+            <li class="nav-item has-sub-menu">
+              <a title="Blog" href="blog.html">
+                <span class="overflow">Blog</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="dsn-btn dsn-btn-shape d-none d-lg-flex">
+          <a
+            class="button background-theme effect-ajax d-flex align-items-center"
+            href="get-quotation.html"
+          >
+            <span
+              class="title-btn p-relative z-index-1 heading-color"
+              data-animate-text="Get Quotation"
+            >
+              <span>Get Quotation</span>
+              <span>
+                <svg
+                  width="15"
+                  height="13"
+                  viewBox="0 0 15 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+            </span>
+          </a>
+        </div>
+        <div id="navbar_toggle" class="navbar-toggle">
+          <div class="toggle-icon">
+            <div class="toggle-line"></div>
+            <div class="toggle-line"></div>
+            <div class="toggle-line"></div>
+          </div>
+          <div class="toggle-text">
+            <div class="text-menu">Menu</div>
+            <div class="text-open">Open</div>
+            <div class="text-close">Close</div>
+          </div>
+        </div>
+        <div class="bg-load"></div>
+
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          class="bg-load dsn-svg-transition"
+        >
+          <path
+            vector-effect="non-scaling-stroke"
+            d="M 0 100 V 100 Q 50 100 100 100 V 100 z"
+          />
+        </svg>
+      </header>
+      <!-- ========== End Menu ========== -->
+
+      <div id="dsn-scrollbar">
+        <!-- ========== Hero Section ========== -->
+        <section class="hero">
+          <div class="hero__bg"></div>
+          <!-- <video class="hero-video" autoplay muted loop playsinline>
+            <source
+              src="assets/videos/latest-work/video-2.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support video playback.
+          </video> -->
+          <div class="hero-content">
+            <h1 class="font-weight-bold dsn-up">WELCOME IN THEMEC</h1>
+            <p style="max-width: 600px" class="dsn-up">
+              We are ARketing Agency that stands at the intersection of
+              marketing, technology.
+            </p>
+            <div class="d-flex flex-column align-items-center dsn-up">
+              <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                <a
+                  class="button btn-book background-theme effect-ajax d-flex align-items-center"
+                  href="#"
+                >
+                  <span
+                    class="title-btn p-relative z-index-1 heading-color"
+                    data-animate-text="Get Book"
+                  >
+                    <span>Get Book</span>
+                    <span>
+                      <svg
+                        width="15"
+                        height="13"
+                        viewBox="0 0 15 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                <a
+                  class="button background-theme effect-ajax d-flex align-items-center"
+                  href="about.html"
+                >
+                  <span
+                    class="title-btn p-relative z-index-1 heading-color"
+                    data-animate-text="Get Quotation"
+                  >
+                    <span>Get Quotation</span>
+                    <span>
+                      <svg
+                        width="15"
+                        height="13"
+                        viewBox="0 0 15 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ========== End Hero Section ========== -->
+
+        <div id="page_wrapper" class="wrapper">
+          <div class="theme-logo-slider dsn-up">
+            <img
+              class="theme-logo-slider__img"
+              src="/assets/img/themec-line-shape.svg"
+              alt=""
+            />
+          </div>
+
+          <!-- ========== clients ========== -->
+          <section class="clients p-relative section-padding dsn-skew-scroll">
+            <!-- <div class="p-absolute top-0 left-0 bottom-0 w-100 h-100">
+              <div
+                class="img-box-parallax before-z-index w-100 h-100 p-absolute top-0 bottom-0 left-0"
+                data-dsn-grid="move-up"
+              >
+                <img
+                  class="has-bigger-scale cover-bg-img has-direction"
+                  src="assets/img/second-pattern.png"
+                  alt=""
+                />
+              </div>
+            </div> -->
+            <div class="pb-50 text-center dsn-up">
+              <span class="badge-rounded dsn-fill" style="margin-bottom: 20px">
+                <span>OUR CLIENTS</span>
+              </span>
+              <h2 style="max-width: 700px" class="mx-auto dsn-fill">
+                We’ve worked with great clients Can’t wait to put your logo with
+                them.
+              </h2>
+            </div>
+            <div class="container">
+              <div
+                class="clients-inner d-grid align-items-center p-relative z-index-1"
+              >
+                <div
+                  class="clients-boxes d-grid grid-2 grid-sm-3 grid-md-4 grid-lg-5"
+                >
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c1.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c2.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c3.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c4.png" alt="" />
+                  </div>
+
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c5.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c6.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c7.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c8.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c9.png" alt="" />
+                  </div>
+                  <div class="client-item dsn-up">
+                    <img src="assets/img/partners/c10.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End clients ========== -->
+
+          <!-- ========== About Us ========== -->
+          <section
+            class="about-section section-padding p-relative"
+            style="background-color: #171717"
+          >
+            <div class="container">
+              <div class="d-grid about-card overflow-hidden">
+                <img
+                  class="about-card__shape"
+                  src="/assets/img/shape.svg"
+                  alt="shape card"
+                />
+
+                <div class="box-text p-relative z-index-2">
+                  <div class="section-title dsn-fill d-flex flex-column mb-50">
+                    <div class="dsn-up">
+                      <span class="badge-rounded" style="margin-bottom: 20px">
+                        <span>WHO WE ARE</span>
+                      </span>
+                    </div>
+                    <h2 class="dsn-up">About Us</h2>
+
+                    <p>
+                      We create stunning visual experiences using CGI, 3D, and
+                      animation techniques, bringing your ideas to life with
+                      professionalism and innovation at every step of the
+                      process. Our team specializes in crafting immersive
+                      designs and visuals that captivate your audience, ensuring
+                      every detail is perfect. From concept to delivery, we
+                      deliver cutting-edge solutions tailored to your needs,
+                      guaranteeing quality and creativity throughout the
+                      journey.
+                    </p>
+                  </div>
+
+                  <div class="dsn-up">
+                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                      <a
+                        class="button background-theme effect-ajax"
+                        href="about.html"
+                      >
+                        <span
+                          class="title-btn p-relative z-index-1 heading-color"
+                          data-animate-text="See More"
+                        >
+                          <span>View More</span>
+                          <span>
+                            <svg
+                              width="15"
+                              height="13"
+                              viewBox="0 0 15 13"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                                fill="white"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="about-card__shape-arrow-bottom dsn-up"
+              src="/assets/img/shape-arrow-bottom.svg"
+              alt="shape card"
+            />
+          </section>
+          <!-- ========== End About Us ========== -->
+
+          <!-- ========== Our Goals ========== -->
+          <section class="clients p-relative section-padding dsn-skew-scroll">
+            <div class="container">
+              <div class="pb-50 text-center dsn-up">
+                <span class="badge-rounded" style="margin-bottom: 20px">
+                  <span>OUR GOALS</span>
+                </span>
+                <h2 style="max-width: 700px" class="mx-auto dsn-fill">
+                  We are ARketing compony
+                </h2>
+                <p class="dsn-fill">
+                  With rising competition in online marketing, the adoption of
+                  VR technology by companies.
+                </p>
+              </div>
+
+              <div class="goals-cards-container d-flex gap">
+                <div class="dsn-up">
+                  <div class="goals-card">
+                    <div class="d-flex justify-content-between mb-3">
+                      <h2 class="goals-card__title dsn-fill">Our Mission</h2>
+                      <span>
+                        <svg
+                          width="3rem"
+                          height="3rem"
+                          viewBox="0 0 54 54"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M27.0002 1.33325V10.6666M52.6668 26.9999H43.3335M27.0002 43.3333V52.6666M10.6668 26.9999H1.3335M48.0002 26.9999C48.0002 38.5979 38.5981 47.9999 27.0002 47.9999C15.4022 47.9999 6.00016 38.5979 6.00016 26.9999C6.00016 15.4019 15.4022 5.99992 27.0002 5.99992C38.5981 5.99992 48.0002 15.4019 48.0002 26.9999ZM34.0002 26.9999C34.0002 30.8659 30.8662 33.9999 27.0002 33.9999C23.1342 33.9999 20.0002 30.8659 20.0002 26.9999C20.0002 23.1339 23.1342 19.9999 27.0002 19.9999C30.8662 19.9999 34.0002 23.1339 34.0002 26.9999Z"
+                            stroke="url(#paint0_linear_7952_360)"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_7952_360"
+                              x1="8.43634"
+                              y1="45.6366"
+                              x2="45.6857"
+                              y2="8.45443"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop offset="2.85827e-07" stop-color="#29AAE1" />
+                              <stop offset="0.5052" stop-color="#F68722" />
+                              <stop offset="1" stop-color="#F9CD14" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                    <p class="goals-card__text dsn-fill">
+                      To revolutionize the marketing industry by merging
+                      cutting-edge technologies like augmented reality (AR),
+                      virtual reality (VR), and artificial intelligence (AI)
+                      with creative strategies. Our mission is to empower
+                      brands, influencers, and businesses to deliver impactful,
+                      engaging, and innovative experiences that drive measurable
+                      results while fostering a culture of collaboration,
+                      creativity, and excellence.
+                    </p>
+                  </div>
+                </div>
+                <div class="dsn-up">
+                  <div class="goals-card">
+                    <div class="d-flex justify-content-between mb-3">
+                      <h2 class="goals-card__title dsn-fill">Our Vision</h2>
+                      <span>
+                        <svg
+                          width="3rem"
+                          height="3rem"
+                          viewBox="0 0 56 56"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M51.3332 30.3334L52.2014 30.8296C52.3771 30.5221 52.3771 30.1447 52.2014 29.8373L51.3332 30.3334ZM4.6665 30.3334L3.79826 29.8373C3.62258 30.1447 3.62258 30.5221 3.79826 30.8296L4.6665 30.3334ZM28.9998 4.66675C28.9998 4.11446 28.5521 3.66675 27.9998 3.66675C27.4476 3.66675 26.9998 4.11446 26.9998 4.66675H28.9998ZM10.9594 21.7072C11.3499 22.0977 11.9831 22.0977 12.3736 21.7072C12.7641 21.3167 12.7641 20.6835 12.3736 20.293L10.9594 21.7072ZM6.54028 14.4596C6.14975 14.0691 5.51659 14.0691 5.12606 14.4596C4.73554 14.8502 4.73554 15.4833 5.12606 15.8739L6.54028 14.4596ZM43.6261 20.293C43.2355 20.6835 43.2355 21.3167 43.6261 21.7072C44.0166 22.0977 44.6498 22.0977 45.0403 21.7072L43.6261 20.293ZM50.8736 15.8739C51.2641 15.4833 51.2641 14.8502 50.8736 14.4596C50.4831 14.0691 49.8499 14.0691 49.4594 14.4596L50.8736 15.8739ZM51.3332 30.3334C50.4649 29.8373 50.465 29.8371 50.4651 29.8369C50.4651 29.8369 50.4652 29.8369 50.4651 29.8369C50.4651 29.8371 50.4648 29.8374 50.4645 29.838C50.4638 29.8393 50.4625 29.8415 50.4607 29.8447C50.457 29.851 50.4511 29.8612 50.4429 29.8752C50.4266 29.903 50.4014 29.9457 50.3674 30.0023C50.2995 30.1156 50.1965 30.2843 50.0597 30.5006C49.786 30.9333 49.3771 31.5556 48.8424 32.3043C47.7716 33.8033 46.2025 35.7999 44.2094 37.793C40.1978 41.8045 34.6066 45.6667 27.9998 45.6667V47.6667C35.3931 47.6667 41.4685 43.3623 45.6236 39.2072C47.7139 37.1169 49.3531 35.0302 50.4698 33.4667C51.0288 32.6842 51.4585 32.0304 51.7499 31.5699C51.8956 31.3395 52.0068 31.1574 52.0824 31.0313C52.1202 30.9683 52.1491 30.9193 52.169 30.8854C52.179 30.8684 52.1866 30.8552 52.192 30.8458C52.1947 30.8412 52.1969 30.8374 52.1984 30.8347C52.1992 30.8334 52.1999 30.8323 52.2004 30.8314C52.2006 30.831 52.2009 30.8305 52.201 30.8303C52.2012 30.8299 52.2014 30.8296 51.3332 30.3334ZM27.9998 45.6667C21.3931 45.6667 15.8018 41.8045 11.7903 37.793C9.79719 35.7999 8.22809 33.8033 7.15732 32.3043C6.62256 31.5556 6.21371 30.9333 5.93997 30.5006C5.80314 30.2843 5.70018 30.1156 5.63223 30.0023C5.59826 29.9457 5.57306 29.903 5.55676 29.8752C5.54861 29.8612 5.54269 29.851 5.53902 29.8447C5.53718 29.8415 5.5359 29.8393 5.53519 29.838C5.53483 29.8374 5.53462 29.8371 5.53455 29.8369C5.53451 29.8369 5.53456 29.8369 5.53454 29.8369C5.53463 29.8371 5.53475 29.8373 4.6665 30.3334C3.79826 30.8296 3.79845 30.8299 3.79868 30.8303C3.7988 30.8305 3.79907 30.831 3.79932 30.8314C3.79981 30.8323 3.80045 30.8334 3.80123 30.8347C3.80279 30.8374 3.80493 30.8412 3.80763 30.8458C3.81303 30.8552 3.82071 30.8684 3.83065 30.8854C3.85052 30.9193 3.87944 30.9683 3.91725 31.0313C3.99286 31.1574 4.10409 31.3395 4.24981 31.5699C4.54117 32.0304 4.97087 32.6842 5.52985 33.4667C6.64658 35.0302 8.28581 37.1169 10.3761 39.2072C14.5312 43.3623 20.6066 47.6667 27.9998 47.6667V45.6667ZM4.6665 30.3334C5.53475 30.8296 5.53463 30.8298 5.53454 30.8299C5.53456 30.8299 5.53451 30.83 5.53455 30.8299C5.53462 30.8298 5.53483 30.8294 5.53519 30.8288C5.5359 30.8275 5.53718 30.8253 5.53902 30.8221C5.54269 30.8158 5.54861 30.8056 5.55676 30.7917C5.57306 30.7638 5.59826 30.7211 5.63223 30.6645C5.70018 30.5512 5.80314 30.3825 5.93997 30.1662C6.21371 29.7335 6.62256 29.1112 7.15732 28.3626C8.22809 26.8635 9.79719 24.8669 11.7903 22.8739C15.8018 18.8623 21.3931 15.0001 27.9998 15.0001V13.0001C20.6066 13.0001 14.5312 17.3045 10.3761 21.4596C8.28581 23.5499 6.64658 25.6367 5.52985 27.2001C4.97087 27.9827 4.54117 28.6364 4.24981 29.0969C4.10409 29.3273 3.99286 29.5095 3.91725 29.6355C3.87944 29.6985 3.85052 29.7475 3.83065 29.7815C3.82071 29.7984 3.81303 29.8117 3.80763 29.821C3.80493 29.8257 3.80279 29.8294 3.80123 29.8321C3.80045 29.8335 3.79981 29.8346 3.79932 29.8354C3.79907 29.8359 3.7988 29.8363 3.79868 29.8365C3.79845 29.8369 3.79826 29.8373 4.6665 30.3334ZM27.9998 15.0001C34.6066 15.0001 40.1978 18.8623 44.2094 22.8739C46.2025 24.8669 47.7716 26.8635 48.8424 28.3626C49.3771 29.1112 49.786 29.7335 50.0597 30.1662C50.1965 30.3825 50.2995 30.5512 50.3674 30.6645C50.4014 30.7211 50.4266 30.7638 50.4429 30.7917C50.4511 30.8056 50.457 30.8158 50.4607 30.8221C50.4625 30.8253 50.4638 30.8275 50.4645 30.8288C50.4648 30.8294 50.4651 30.8298 50.4651 30.8299C50.4652 30.83 50.4651 30.8299 50.4651 30.8299C50.465 30.8298 50.4649 30.8296 51.3332 30.3334C52.2014 29.8373 52.2012 29.8369 52.201 29.8365C52.2009 29.8363 52.2006 29.8359 52.2004 29.8354C52.1999 29.8346 52.1992 29.8335 52.1984 29.8321C52.1969 29.8294 52.1947 29.8257 52.192 29.821C52.1866 29.8117 52.179 29.7984 52.169 29.7815C52.1491 29.7475 52.1202 29.6985 52.0824 29.6355C52.0068 29.5095 51.8956 29.3273 51.7499 29.0969C51.4585 28.6364 51.0288 27.9827 50.4698 27.2001C49.3531 25.6367 47.7139 23.5499 45.6236 21.4596C41.4685 17.3045 35.3931 13.0001 27.9998 13.0001V15.0001ZM33.9998 30.3334C33.9998 33.6471 31.3135 36.3334 27.9998 36.3334V38.3334C32.4181 38.3334 35.9998 34.7517 35.9998 30.3334H33.9998ZM27.9998 36.3334C24.6861 36.3334 21.9998 33.6471 21.9998 30.3334H19.9998C19.9998 34.7517 23.5816 38.3334 27.9998 38.3334V36.3334ZM21.9998 30.3334C21.9998 27.0197 24.6861 24.3334 27.9998 24.3334V22.3334C23.5816 22.3334 19.9998 25.9151 19.9998 30.3334H21.9998ZM27.9998 24.3334C31.3135 24.3334 33.9998 27.0197 33.9998 30.3334H35.9998C35.9998 25.9151 32.4181 22.3334 27.9998 22.3334V24.3334ZM28.9998 14.0001V4.66675H26.9998V14.0001H28.9998ZM12.3736 20.293L6.54028 14.4596L5.12606 15.8739L10.9594 21.7072L12.3736 20.293ZM45.0403 21.7072L50.8736 15.8739L49.4594 14.4596L43.6261 20.293L45.0403 21.7072Z"
+                            fill="url(#paint0_linear_7867_5823)"
+                          />
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_7867_5823"
+                              x1="11.1236"
+                              y1="40.9149"
+                              x2="41.4377"
+                              y2="7.29335"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop offset="2.85827e-07" stop-color="#29AAE1" />
+                              <stop offset="0.5052" stop-color="#F68722" />
+                              <stop offset="1" stop-color="#F9CD14" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </span>
+                    </div>
+                    <p class="goals-card__text dsn-fill">
+                      To revolutionize the marketing industry by merging
+                      cutting-edge technologies like augmented reality (AR),
+                      virtual reality (VR), and artificial intelligence (AI)
+                      with creative strategies. Our mission is to empower
+                      brands, influencers, and businesses to deliver impactful,
+                      engaging, and innovative experiences that drive measurable
+                      results while fostering a culture of collaboration,
+                      creativity, and excellence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End Our Goals ========== -->
+
+          <!-- ========== Latest work ========== -->
+          <section class="latest-work section-padding background-section">
+            <div class="container">
+              <div class="dsn-fill mb-50 d-flex flex-column">
+                <div class="section-title">
+                  <span class="badge-rounded" style="margin-bottom: 20px">
+                    <span>Case Studies</span>
+                  </span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h2>Our Latest work</h2>
+                  <div class="dsn-btn dsn-btn-shape d-flex">
+                    <a
+                      class="button btn-book background-theme effect-ajax d-flex align-items-center"
+                      href="#"
+                    >
+                      <span
+                        class="title-btn p-relative z-index-1 heading-color"
+                      >
+                        <span>View All</span>
+                        <span>
+                          <svg
+                            width="15"
+                            height="13"
+                            viewBox="0 0 15 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <!-- Slider main container -->
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+              <div class="d-grid grid-2 grid-lg-3">
+                <div class="box-video main-radius">
+                  <video
+                    src="assets/videos/latest-work/video-1.mp4"
+                    class="lazy-video cover-bg-vid main-radius"
+                    type="video/mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/img/posters/pos1.jpg"
+                  ></video>
+                </div>
+
+                <div class="box-video main-radius">
+                  <video
+                    src="assets/videos/latest-work/video-2.mp4"
+                    class="lazy-video cover-bg-vid main-radius"
+                    type="video/mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/img/posters/pos2.jpg"
+                  ></video>
+                </div>
+
+                <div class="box-video main-radius">
+                  <video
+                    src="assets/videos/latest-work/video-3.mp4"
+                    class="lazy-video cover-bg-vid main-radius"
+                    type="video/mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/img/posters/pos3.jpg"
+                  ></video>
+                </div>
+                <div class="box-video main-radius">
+                  <video
+                    src="assets/videos/latest-work/video-1.mp4"
+                    class="lazy-video cover-bg-vid main-radius"
+                    type="video/mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/img/posters/pos1.jpg"
+                  ></video>
+                </div>
+
+                <div class="box-video main-radius">
+                  <video
+                    src="assets/videos/latest-work/video-2.mp4"
+                    class="lazy-video cover-bg-vid main-radius"
+                    type="video/mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/img/posters/pos2.jpg"
+                  ></video>
+                </div>
+
+                <div class="box-video main-radius">
+                  <video
+                    src="assets/videos/latest-work/video-3.mp4"
+                    class="lazy-video cover-bg-vid main-radius"
+                    type="video/mp4"
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/img/posters/pos3.jpg"
+                  ></video>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End Latest work ========== -->
+
+          <!-- ========== Process ========== -->
+          <section class="our-process section-padding">
+            <div class="container">
+              <div
+                class="dsn-fill mb-50 d-flex flex-column align-items-center text-center"
+              >
+                <div class="dsn-up">
+                  <span class="badge-rounded" style="margin-bottom: 20px">
+                    <span>OUR PROCESS</span>
+                  </span>
+                </div>
+                <h2 class="dsn-up">Engaging Videos: Your How-To Guide</h2>
+                <p class="dsn-up pt-10 mx-auto" style="max-width: 600px">
+                  We always follow the same series of steps to make our videos,
+                  no matter what techniques we use or how complex it will be.
+                </p>
+              </div>
+              <div class="our-process__steps">
+                <img
+                  src="/assets/img/process-line.svg"
+                  alt="our process timeline"
+                  width="100%"
+                  height="2500px"
+                />
+              </div>
+              <div class="process-steps">
+                <div class="process-container">
+                  <div class="process-card dsn-up">
+                    <img
+                      src="assets/img/process/script.jpg"
+                      alt="Scriptwriting-img"
+                    />
+                    <h3>Scriptwriting</h3>
+                  </div>
+                  <svg
+                    class="dsn-up svg-arrow"
+                    width="168"
+                    height="168"
+                    viewBox="0 0 168 168"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_2611_728)">
+                      <mask
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="168"
+                        height="168"
+                      >
+                        <path
+                          d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
+                          fill="white"
+                        ></path>
+                      </mask>
+                      <g mask="url(#mask0_2611_728)">
+                        <path
+                          d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
+                          fill="#3D3D3D"
+                        ></path>
+                        <path
+                          d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
+                          fill="#3D3D3D"
+                        ></path>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath>
+                        <rect
+                          width="168"
+                          height="168"
+                          fill="white"
+                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
+                        ></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="process-card dsn-up">
+                    <img
+                      src="assets/img/process/boarding.jpg"
+                      alt="Storyboarding-img"
+                    />
+                    <h3>Storyboarding</h3>
+                  </div>
+                  <svg
+                    class="dsn-up svg-arrow"
+                    width="168"
+                    height="168"
+                    viewBox="0 0 168 168"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g transform="scale(-1, 1) translate(-168, 0)">
+                      <g clip-path="url(#clip0_2611_728)">
+                        <mask
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="168"
+                          height="168"
+                        >
+                          <path
+                            d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
+                            fill="white"
+                          ></path>
+                        </mask>
+                        <g mask="url(#mask0_2611_728)">
+                          <path
+                            d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
+                            fill="#3D3D3D"
+                          ></path>
+                          <path
+                            d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
+                            fill="#3D3D3D"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath>
+                        <rect
+                          width="168"
+                          height="168"
+                          fill="white"
+                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
+                        ></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="process-card dsn-up">
+                    <img
+                      src="assets/img/process/design.jpg"
+                      alt="Designing-img"
+                    />
+                    <h3>Designing</h3>
+                  </div>
+                  <svg
+                    class="dsn-up svg-arrow"
+                    width="168"
+                    height="168"
+                    viewBox="0 0 168 168"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_2611_728)">
+                      <mask
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="168"
+                        height="168"
+                      >
+                        <path
+                          d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
+                          fill="white"
+                        ></path>
+                      </mask>
+                      <g mask="url(#mask0_2611_728)">
+                        <path
+                          d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
+                          fill="#3D3D3D"
+                        ></path>
+                        <path
+                          d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
+                          fill="#3D3D3D"
+                        ></path>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath>
+                        <rect
+                          width="168"
+                          height="168"
+                          fill="white"
+                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
+                        ></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="process-card dsn-up">
+                    <img
+                      src="assets/img/process/animation.gif"
+                      alt="Animation-img"
+                    />
+                    <h3>Animation</h3>
+                  </div>
+                  <svg
+                    class="dsn-up svg-arrow"
+                    width="168"
+                    height="168"
+                    viewBox="0 0 168 168"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g transform="scale(-1, 1) translate(-168, 0)">
+                      <g clip-path="url(#clip0_2611_728)">
+                        <mask
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="168"
+                          height="168"
+                        >
+                          <path
+                            d="M168 168L168 0L0 -7.34351e-06L-7.34351e-06 168L168 168Z"
+                            fill="white"
+                          ></path>
+                        </mask>
+                        <g mask="url(#mask0_2611_728)">
+                          <path
+                            d="M-1.14418e-07 2.61757C0.00188117 1.9525 0.256151 1.31293 0.711416 0.828103C1.16668 0.343275 1.789 0.0493324 2.45264 0.0056675C3.11628 -0.0379968 3.77178 0.171871 4.28665 0.592868C4.80151 1.01386 5.13738 1.6146 5.22638 2.27369C5.39176 3.48382 22.9163 123.719 136.814 142.201C137.503 142.314 138.118 142.693 138.526 143.258C138.932 143.823 139.099 144.526 138.988 145.215C138.876 145.902 138.496 146.517 137.931 146.924C137.366 147.331 136.663 147.498 135.974 147.386C18.186 128.271 0.191629 4.22145 0.0236293 2.97195C0.00791771 2.85447 2.05536e-05 2.73608 -1.14418e-07 2.61757Z"
+                            fill="#3D3D3D"
+                          ></path>
+                          <path
+                            d="M166 146.993C154.224 150.202 139.441 156.155 130 163L138.587 144.6L133.346 125C141.449 133.374 154.966 141.791 166 146.993Z"
+                            fill="#3D3D3D"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath>
+                        <rect
+                          width="168"
+                          height="168"
+                          fill="white"
+                          transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
+                        ></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="process-card dsn-up">
+                    <img src="assets/img/process/music.jpg" alt="Music-img" />
+                    <h3>Music</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End Process ========== -->
+
+          <!-- ========== Services ========== -->
+          <section class="services-section section-padding background-section">
+            <div class="container">
+              <div
+                class="dsn-fill mb-50 d-flex flex-column align-items-center text-center"
+              >
+                <div class="dsn-up">
+                  <span class="badge-rounded" style="margin-bottom: 20px">
+                    <span>SERVICES</span>
+                  </span>
+                </div>
+                <h2 class="dsn-up">Our services</h2>
+                <p class="dsn-up pt-10 mx-auto" style="max-width: 600px">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illum blanditiis eius voluptatum cumque necessitatibus
+                  pariatur id corporis repellat perferendis maiores!
+                </p>
+              </div>
+              <div class="ggi">
+                <h3>CGI & VFX</h3>
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="dsn-paginate d-flex justify-content-end pb-20">
+                    <div class="prev-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="next-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea eligendi nulla eos tempora fugit
+                            repudiandae.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="videos.html"
+                  class="d-flex align-items-center mt-50 gap-10"
+                  >View All
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-arrow"
+                    width="17"
+                    height="15"
+                    viewBox="0 0 17 15"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                      fill=""
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="3d mt-50">
+                <h3>3D modeling</h3>
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="dsn-paginate d-flex justify-content-end pb-20">
+                    <div class="prev-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="next-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea eligendi nulla eos tempora fugit
+                            repudiandae.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="videos.html"
+                  class="d-flex align-items-center mt-50 gap-10"
+                  >View All
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-arrow"
+                    width="17"
+                    height="15"
+                    viewBox="0 0 17 15"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                      fill=""
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="animation mt-50">
+                <h3>Animation</h3>
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="dsn-paginate d-flex justify-content-end pb-20">
+                    <div class="prev-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="next-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea eligendi nulla eos tempora fugit
+                            repudiandae.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="videos.html"
+                  class="d-flex align-items-center mt-50 gap-10"
+                  >View All
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-arrow"
+                    width="17"
+                    height="15"
+                    viewBox="0 0 17 15"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                      fill=""
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="marketing mt-50">
+                <h3>AR marketing</h3>
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="dsn-paginate d-flex justify-content-end pb-20">
+                    <div class="prev-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="next-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea eligendi nulla eos tempora fugit
+                            repudiandae.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="videos.html"
+                  class="d-flex align-items-center mt-50 gap-10"
+                  >View All
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-arrow"
+                    width="17"
+                    height="15"
+                    viewBox="0 0 17 15"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                      fill=""
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="ai mt-50">
+                <h3>AI</h3>
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="dsn-paginate d-flex justify-content-end pb-20">
+                    <div class="prev-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="next-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea eligendi nulla eos tempora fugit
+                            repudiandae.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="videos.html"
+                  class="d-flex align-items-center mt-50 gap-10"
+                  >View All
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-arrow"
+                    width="17"
+                    height="15"
+                    viewBox="0 0 17 15"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                      fill=""
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="content-creation mt-50">
+                <h3>Content creation</h3>
+                <div
+                  class="dsn-swiper"
+                  data-dsn-option='{"spaceBetween":15,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":3,"speed":1000,"effect":"slide"}'
+                >
+                  <div class="dsn-paginate d-flex justify-content-end pb-20">
+                    <div class="prev-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="next-paginate dsn-slid-normal two">
+                      <span class="dsn-icon dsn-icon-heading-color">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="17"
+                          height="15"
+                          viewBox="0 0 17 15"
+                          fill=""
+                        >
+                          <path
+                            d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                            fill=""
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-2.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos2.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea eligendi nulla eos tempora fugit
+                            repudiandae.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-1.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos1.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide box second-radius">
+                        <div class="box-video">
+                          <video
+                            src="assets/videos/latest-work/video-3.mp4"
+                            class="lazy-video cover-bg-vid second-radius"
+                            type="video/mp4"
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/img/posters/pos3.jpg"
+                          ></video>
+                        </div>
+                        <div class="box-info">
+                          <h6>Video Title</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="videos.html"
+                  class="d-flex align-items-center mt-50 gap-10"
+                  >View All
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svg-arrow"
+                    width="17"
+                    height="15"
+                    viewBox="0 0 17 15"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z"
+                      fill=""
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End Services ========== -->
+
+          <div class="shape-pattern">
+            <img
+              width="100%"
+              height="100"
+              src="assets/img/shape-bg.webp"
+              loading="lazy"
+              alt="shape pattern"
+            />
+          </div>
+
+          <!-- ========== Core Value ========== -->
+          <section class="core-values section-padding">
+            <div class="container">
+              <div class="dsn-fill mb-50 d-flex flex-column align-items-center">
+                <div class="dsn-up">
+                  <span class="badge-rounded" style="margin-bottom: 20px">
+                    <span>CORE VALUES</span>
+                  </span>
+                </div>
+                <h2 class="dsn-up">Our Guiding Principles</h2>
+              </div>
+            </div>
+
+            <div class="container values-with-shape">
+              <div class="inner-content" style="gap: 10px; --grid-gap: 10px">
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-1.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Innovation</h4>
+                    <p>
+                      Embracing and integrating the latest technologies to stay
+                      ahead in the marketing landscape.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-2.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Collaboration</h4>
+                    <p>
+                      Building strong partnerships with clients, celebrities,
+                      and creative talents to achieve mutual success.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-3.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Excellence</h4>
+                    <p>
+                      Delivering high-quality services and solutions that exceed
+                      client expectations.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-4.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Integrity</h4>
+                    <p>
+                      Maintaining honesty and transparency in all business
+                      dealings.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-5.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Adaptability</h4>
+                    <p>
+                      Being flexible and responsive to the dynamic market trends
+                      and client needs.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-6.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Continuous Learning</h4>
+                    <p>
+                      Committing to ongoing education and skill development for
+                      our team and clients.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="values-item background-section dsn-up">
+                  <div class="icon-top">
+                    <img src="assets/img/values/value-7.svg" alt="icon-img" />
+                  </div>
+                  <div class="values-item__body dsn-fill">
+                    <h4>Customer-Centricity</h4>
+                    <p>
+                      Prioritizing the needs and satisfaction of our clients and
+                      their audiences.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End Core Value ========== -->
+
+          <!-- ========== Blog ========== -->
+          <section
+            class="blog-style dsn-cards section-padding background-section"
+          >
+            <div class="container">
+              <div class="dsn-fill mb-50 d-flex flex-column">
+                <div class="section-title">
+                  <span class="badge-rounded" style="margin-bottom: 20px">
+                    <span>Articles</span>
+                  </span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h2>Latest Blog</h2>
+                  <div class="dsn-btn dsn-btn-shape d-flex">
+                    <a
+                      class="button btn-book background-theme effect-ajax d-flex align-items-center"
+                      href="blog.html"
+                    >
+                      <span
+                        class="title-btn p-relative z-index-1 heading-color"
+                      >
+                        <span>View All</span>
+                        <span>
+                          <svg
+                            width="15"
+                            height="13"
+                            viewBox="0 0 15 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dsn-posts">
+                <div class="d-grid grid-sm-1 grid-md-3">
+                  <div
+                    class="post-item dsn-up p-relative d-flex flex-column justify-content-start grid-item"
+                  >
+                    <div class="box-img main-radius">
+                      <img
+                        class="post-item__img cover-bg-img main-radius"
+                        src="assets/img/blog/blog-1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="post-item__content d-flex flex-column justify-content-between flex-wrap"
+                    >
+                      <div class="post-time-wrap">
+                        <span class="post-item__time">Jun 15, 2025</span>
+                      </div>
+                      <h2 class="post-item__title">
+                        <a href="blog.html">Creativity Without Borders:</a>
+                      </h2>
+                      <p class="post-item__text">
+                        A Journey into the World of Animated Videos
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="post-item dsn-up p-relative d-flex flex-column justify-content-start grid-item"
+                  >
+                    <div class="box-img main-radius">
+                      <img
+                        class="post-item__img cover-bg-img main-radius"
+                        src="assets/img/blog/blog-2.jpg"
+                        alt=""
+                      />
+                    </div>
+
+                    <div
+                      class="post-item__content d-flex flex-column justify-content-between flex-wrap"
+                    >
+                      <div class="post-time-wrap">
+                        <span class="post-item__time">Jun 15, 2025</span>
+                      </div>
+                      <h2 class="post-item__title">
+                        <a href="blog.html">Innovation in Every Frame:</a>
+                      </h2>
+                      <p class="post-item__text">
+                        The Art of Creative Video Making
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="post-item dsn-up p-relative d-flex flex-column justify-content-start grid-item"
+                  >
+                    <div class="box-img main-radius">
+                      <img
+                        class="post-item__img cover-bg-img main-radius"
+                        src="assets/img/blog/blog-3.jpg"
+                        alt=""
+                      />
+                    </div>
+
+                    <div
+                      class="post-item__content d-flex flex-column justify-content-between flex-wrap"
+                    >
+                      <div class="post-time-wrap">
+                        <span class="post-item__time">Jun 15, 2025</span>
+                      </div>
+                      <h2 class="post-item__title">
+                        <a href="blog.html">From Imagination to Reality:</a>
+                      </h2>
+                      <p class="post-item__text">
+                        Crafting Stunning Animated Experiences
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ========== End Blog ========== -->
+
+          <section class="next-page v-dark section-padding">
+            <div class="container">
+              <div class="contact-box contact-section-box dsn-up">
+                <img
+                  class="contact-section-box__img"
+                  src="/assets/img/get_in_touch.svg"
+                  alt="contact shape"
+                />
+                <div class="contact-section-box__content">
+                  <h2 class="title-block">Get In Touch Now</h2>
+                  <p>Our creatives are waiting you</p>
+
+                  <div class="dsn-btn dsn-btn-shape d-flex">
+                    <a
+                      class="button background-main v-light effect-ajax"
+                      href="get-quotation.html"
+                    >
+                      <span
+                        class="title-btn p-relative z-index-1 heading-color"
+                        data-animate-text="Contact Us"
+                      >
+                        <span>Contact Us</span>
+                        <span>
+                          <svg
+                            width="15"
+                            height="13"
+                            viewBox="0 0 15 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9.22061 0.612626C8.91466 0.333398 8.44028 0.35506 8.16105 0.661009C7.88183 0.966957 7.90349 1.44134 8.20944 1.72056L9.22061 0.612626ZM12.6733 4.77915L13.1789 4.22518V4.22518L12.6733 4.77915ZM12.6733 8.22071L12.1677 7.66674L12.6733 8.22071ZM8.20944 11.2793C7.90349 11.5585 7.88183 12.0329 8.16105 12.3388C8.44028 12.6448 8.91466 12.6665 9.22061 12.3872L8.20944 11.2793ZM1.3335 5.74993C0.919283 5.74993 0.583496 6.08571 0.583496 6.49993C0.583496 6.91414 0.919283 7.24993 1.3335 7.24993V5.74993ZM8.20944 1.72056L12.1677 5.33312L13.1789 4.22518L9.22061 0.612626L8.20944 1.72056ZM12.1677 7.66674L8.20944 11.2793L9.22061 12.3872L13.1789 8.77467L12.1677 7.66674ZM12.1677 5.33312C12.6263 5.75163 12.9117 6.01439 13.0921 6.23106C13.2596 6.43224 13.2502 6.49419 13.2502 6.49993H14.7502C14.7502 5.99588 14.5195 5.60111 14.2448 5.27117C13.9829 4.95673 13.6049 4.614 13.1789 4.22518L12.1677 5.33312ZM13.1789 8.77467C13.6049 8.38585 13.9829 8.04312 14.2448 7.72869C14.5195 7.39875 14.7502 7.00398 14.7502 6.49993H13.2502C13.2502 6.50566 13.2596 6.56762 13.0921 6.76879C12.9117 6.98546 12.6263 7.24823 12.1677 7.66674L13.1789 8.77467ZM14.0002 5.74993H1.3335V7.24993H14.0002V5.74993Z"
+                              fill="#0F0F0F"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <footer class="footer pt-60" style="background-color: #171717">
+          <div class="container p-relative">
+            <div class="d-grid grid-lg-4 grid-md-3 pb-30">
+              <div>
+                <div class="logo d-flex">
+                  <img src="assets/img/logo-light.svg" alt="" class="logo" />
+                </div>
+              </div>
+
+              <div class="footer-links">
+                <h4 class="sm-title-block p-relative mb-10">
+                  Navigation Links
+                </h4>
+                <ul>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                    <a href="get-quotation.html">Get Quotation</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-contact">
+                <h4 class="sm-title-block p-relative mb-10">Contact Info</h4>
+
+                <div class="col-contact">
+                  <div style="display: flex; align-items: center; gap: 10px">
+                    <div>
+                      <span class="badge-icon">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.5087 17.4153L15.6071 16.6718H15.6071L15.5087 17.4153ZM9.35962 15.1552L8.95322 15.7855H8.95322L9.35962 15.1552ZM14.6255 11.3493L14.3151 12.032L14.6255 11.3493ZM16.1772 12.0547L15.8668 12.7374L16.1772 12.0547ZM6.82091 13.0976L7.35332 12.5694L6.82091 13.0976ZM4.84639 10.6414L5.47679 10.2351H5.47679L4.84639 10.6414ZM7.94652 3.82299L8.62931 3.51267V3.51267L7.94652 3.82299ZM8.65184 5.37488L9.33463 5.06456V5.06456L8.65184 5.37488ZM2.6228 4.74871L1.88108 4.85985L2.6228 4.74871ZM8.02875 10.084L8.62112 9.62396L8.62112 9.62396L8.02875 10.084ZM9.91705 11.9724L10.3771 11.3801L9.91705 11.9724ZM12.3822 11.7561L12.9125 12.2864L12.3822 11.7561ZM11.3417 12.5535L11.5099 13.2844L11.5099 13.2844L11.3417 12.5535ZM10.975 12.5765L10.8994 13.3226H10.8994L10.975 12.5765ZM9.00232 6.44036L8.25299 6.40867V6.40867L9.00232 6.44036ZM8.24505 7.61846L7.71469 7.08817L7.71469 7.08817L8.24505 7.61846ZM8.94728 6.7439L8.23453 6.51049L8.23452 6.5105L8.94728 6.7439ZM2.74093 2.89201L2.17263 2.40259L2.17263 2.40259L2.74093 2.89201ZM13.5601 10.9987L13.5918 11.7481L13.5601 10.9987ZM13.2566 11.0538L13.4901 11.7665L13.4901 11.7665L13.2566 11.0538ZM7.44773 8.65906L6.71681 8.49095L6.71681 8.49095L7.44773 8.65906ZM7.42477 9.02583L8.17094 8.9502V8.9502L7.42477 9.02583ZM16.936 17.3684L17.3111 18.0178L17.3111 18.0178L16.936 17.3684ZM17.2663 17.0788L16.6716 16.6218H16.6716L17.2663 17.0788ZM4.71252 3.25H5.89217V1.75H4.71252V3.25ZM15.6071 16.6718C13.4762 16.39 11.4937 15.6387 9.76603 14.5248L8.95322 15.7855C10.8624 17.0164 13.0546 17.8473 15.4104 18.1589L15.6071 16.6718ZM14.3151 12.032L15.8668 12.7374L16.4876 11.3719L14.9359 10.6665L14.3151 12.032ZM6.2885 13.6259C7.09414 14.4379 7.98747 15.1629 8.95322 15.7855L9.76603 14.5248C8.89186 13.9612 8.08296 13.3048 7.35332 12.5694L6.2885 13.6259ZM7.35332 12.5694C6.64981 11.8603 6.02015 11.078 5.47679 10.2351L4.216 11.0477C4.81628 11.979 5.51171 12.843 6.2885 13.6259L7.35332 12.5694ZM7.26373 4.13331L7.96905 5.6852L9.33463 5.06456L8.62931 3.51267L7.26373 4.13331ZM5.47679 10.2351C4.40568 8.57334 3.66994 6.67587 3.36452 4.63757L1.88108 4.85985C2.21877 7.11353 3.03244 9.21154 4.216 11.0477L5.47679 10.2351ZM18.25 15.5488V14.1093H16.75V15.5488H18.25ZM7.43638 10.544C8.0476 11.3311 8.66848 11.9522 9.45697 12.5647L10.3771 11.3801C9.68755 10.8444 9.15555 10.3122 8.62112 9.62396L7.43638 10.544ZM11.8518 11.2258C11.5992 11.4784 11.4497 11.6266 11.327 11.7261C11.2182 11.8143 11.1813 11.8208 11.1736 11.8226L11.5099 13.2844C11.818 13.2135 12.0598 13.0629 12.2714 12.8914C12.4692 12.7311 12.682 12.517 12.9125 12.2864L11.8518 11.2258ZM9.45697 12.5647C9.88242 12.8952 10.3151 13.2634 10.8994 13.3226L11.0507 11.8303C11.0326 11.8284 10.9981 11.8248 10.8995 11.7646C10.7811 11.6925 10.6353 11.5806 10.3771 11.3801L9.45697 12.5647ZM11.1736 11.8226C11.1406 11.8302 11.0843 11.8337 11.0507 11.8303L10.8994 13.3226C11.0961 13.3426 11.3172 13.3287 11.5099 13.2844L11.1736 11.8226ZM7.96905 5.6852C8.09498 5.96228 8.16924 6.12724 8.2148 6.25596C8.25606 6.37253 8.25314 6.40513 8.25299 6.40867L9.75165 6.47205C9.76288 6.20632 9.70534 5.97158 9.62883 5.75543C9.55662 5.55143 9.44994 5.31828 9.33463 5.06456L7.96905 5.6852ZM8.77541 8.14876C8.97246 7.95169 9.1542 7.77085 9.29343 7.60519C9.44096 7.42967 9.57726 7.23008 9.66004 6.97731L8.23452 6.5105C8.23342 6.51386 8.22472 6.54541 8.14517 6.64006C8.05732 6.74458 7.92988 6.87295 7.71469 7.08817L8.77541 8.14876ZM8.25299 6.40867C8.25152 6.4433 8.24531 6.47756 8.23453 6.51049L9.66004 6.97731C9.71356 6.81388 9.74438 6.64387 9.75165 6.47205L8.25299 6.40867ZM5.89217 3.25C6.26086 3.25 6.47902 3.25098 6.64155 3.26826C6.78627 3.28364 6.81735 3.30629 6.82348 3.31024L7.63563 2.04912C7.36276 1.87339 7.07793 1.8062 6.80012 1.77666C6.54011 1.74902 6.22907 1.75 5.89217 1.75V3.25ZM8.62931 3.51267C8.4899 3.20592 8.36209 2.92234 8.22934 2.69706C8.08751 2.45635 7.9085 2.22485 7.63563 2.04912L6.82348 3.31024C6.82962 3.31419 6.8631 3.33312 6.93701 3.45855C7.02 3.5994 7.11117 3.79763 7.26373 4.13331L8.62931 3.51267ZM4.71252 1.75C4.19233 1.75 3.71493 1.74787 3.32938 1.80794C2.90962 1.87334 2.49719 2.02572 2.17263 2.40259L3.30923 3.38143C3.32227 3.3663 3.35097 3.32267 3.56028 3.29006C3.80379 3.25213 4.14339 3.25 4.71252 3.25V1.75ZM3.36452 4.63757C3.28751 4.12368 3.24613 3.83074 3.25026 3.61558C3.25354 3.44474 3.28449 3.41017 3.30923 3.38143L2.17263 2.40259C1.85977 2.76587 1.7585 3.17142 1.75053 3.58682C1.74342 3.95789 1.81177 4.3973 1.88108 4.85985L3.36452 4.63757ZM15.8668 12.7374C16.2024 12.89 16.4006 12.9812 16.5415 13.0642C16.6668 13.1381 16.6858 13.1716 16.6897 13.1777L17.9509 12.3657C17.7753 12.0928 17.5438 11.9138 17.3031 11.7719C17.0778 11.6392 16.7943 11.5113 16.4876 11.3719L15.8668 12.7374ZM18.25 14.1093C18.25 13.7723 18.251 13.4613 18.2233 13.2013C18.1938 12.9234 18.1266 12.6386 17.9509 12.3657L16.6897 13.1777C16.6937 13.1839 16.7164 13.215 16.7317 13.3598C16.749 13.5224 16.75 13.7406 16.75 14.1093H18.25ZM14.9359 10.6665C14.6822 10.5512 14.4491 10.4445 14.2451 10.3723C14.0289 10.2957 13.7942 10.2382 13.5284 10.2494L13.5918 11.7481C13.5953 11.7479 13.6279 11.745 13.7444 11.7863C13.8731 11.8318 14.038 11.9061 14.3151 12.032L14.9359 10.6665ZM12.9125 12.2864C13.1277 12.0712 13.2561 11.9437 13.3606 11.8559C13.4552 11.7763 13.4868 11.7676 13.4901 11.7665L13.0232 10.3411C12.7704 10.4238 12.5708 10.5602 12.3953 10.7077C12.2297 10.847 12.0489 11.0287 11.8518 11.2258L12.9125 12.2864ZM13.5284 10.2494C13.3566 10.2567 13.1866 10.2875 13.0232 10.3411L13.4901 11.7665C13.523 11.7557 13.5572 11.7495 13.5918 11.7481L13.5284 10.2494ZM7.71469 7.08817C7.48415 7.31873 7.26999 7.53158 7.10973 7.72937C6.93822 7.94105 6.78768 8.18284 6.71681 8.49095L8.17865 8.82717C8.18042 8.81946 8.18697 8.78255 8.27519 8.67368C8.37465 8.55092 8.52283 8.40138 8.77541 8.14876L7.71469 7.08817ZM8.62112 9.62396C8.42064 9.36579 8.30878 9.21996 8.2366 9.10153C8.17646 9.00286 8.17278 8.96832 8.17094 8.9502L6.67859 9.10146C6.7378 9.68569 7.10593 10.1184 7.43638 10.544L8.62112 9.62396ZM6.71681 8.49095C6.67249 8.68368 6.65865 8.90471 6.67859 9.10146L8.17094 8.9502C8.16753 8.91652 8.17106 8.86016 8.17865 8.82717L6.71681 8.49095ZM15.4104 18.1589C15.7563 18.2046 16.0866 18.2498 16.3711 18.25C16.6843 18.2502 16.9988 18.1982 17.3111 18.0178L16.5609 16.7189C16.5411 16.7304 16.5071 16.7501 16.3722 16.75C16.2086 16.7499 15.9913 16.7226 15.6071 16.6718L15.4104 18.1589ZM16.75 15.5488C16.75 15.9757 16.7487 16.2294 16.7262 16.4165C16.7062 16.5822 16.6774 16.6144 16.6716 16.6218L17.8611 17.5358C18.089 17.2391 18.177 16.9149 18.2154 16.596C18.2513 16.2985 18.25 15.9392 18.25 15.5488H16.75ZM17.3111 18.0178C17.5143 17.9005 17.7181 17.7218 17.8611 17.5358L16.6716 16.6218C16.6484 16.6521 16.5938 16.6999 16.5609 16.7189L17.3111 18.0178Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <a class="link-hover" href="#"> +965 97793511</a>
+                  </div>
+                  <div
+                    class="mt-10"
+                    style="display: flex; align-items: center; gap: 10px"
+                  >
+                    <div>
+                      <span class="badge-icon">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4.1665 7.49967L6.74588 9.71057C8.29865 11.0415 9.07503 11.707 9.99984 11.707C10.9246 11.707 11.701 11.0415 13.2538 9.71057L15.8332 7.49967M8.33317 16.6663H11.6665C14.1588 16.6663 15.405 16.6663 16.3332 16.1304C16.9412 15.7794 17.4462 15.2744 17.7973 14.6663C18.3332 13.7381 18.3332 12.492 18.3332 9.99967V9.99967C18.3332 7.50737 18.3332 6.26121 17.7973 5.33301C17.4462 4.72493 16.9412 4.21998 16.3332 3.86891C15.405 3.33301 14.1588 3.33301 11.6665 3.33301L8.33317 3.33301C5.84086 3.33301 4.59471 3.33301 3.6665 3.86891C3.05843 4.21998 2.55348 4.72493 2.2024 5.33301C1.6665 6.26121 1.6665 7.50737 1.6665 9.99967V9.99967C1.6665 12.492 1.6665 13.7381 2.2024 14.6663C2.55348 15.2744 3.05843 15.7794 3.6665 16.1304C4.59471 16.6663 5.84086 16.6663 8.33317 16.6663Z"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <a
+                      class="link-hover"
+                      href="#"
+                      data-hover-text="info@themeckw.com"
+                      >info@themeckw.com</a
+                    >
+                  </div>
+                  <div
+                    class="mt-10"
+                    style="display: flex; align-items: center; gap: 10px"
+                  >
+                    <div>
+                      <span class="badge-icon">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.1935 17.7868L11.7691 18.2676L11.1935 17.7868ZM8.80683 17.7868L8.23118 18.2676L8.80683 17.7868ZM15.9168 8.22949C15.9168 8.74156 15.7399 9.41604 15.3929 10.219C15.0509 11.0103 14.5688 11.8702 14.0168 12.7366C12.9132 14.4689 11.568 16.1684 10.6179 17.3061L11.7691 18.2676C12.7369 17.1088 14.1284 15.3531 15.2819 13.5425C15.8586 12.6375 16.3852 11.7041 16.7698 10.814C17.1494 9.93567 17.4168 9.04083 17.4168 8.22949H15.9168ZM9.38248 17.3061C8.43236 16.1684 7.08714 14.4689 5.98348 12.7366C5.43152 11.8702 4.94941 11.0103 4.60746 10.219C4.26047 9.41604 4.0835 8.74156 4.0835 8.22949H2.5835C2.5835 9.04083 2.85095 9.93567 3.23053 10.814C3.61516 11.7041 4.14177 12.6375 4.71841 13.5425C5.87193 15.3531 7.26338 17.1088 8.23118 18.2676L9.38248 17.3061ZM4.0835 8.22949C4.0835 5.03043 6.7213 2.41699 10.0002 2.41699V0.916992C5.91523 0.916992 2.5835 4.17982 2.5835 8.22949H4.0835ZM10.0002 2.41699C13.279 2.41699 15.9168 5.03043 15.9168 8.22949H17.4168C17.4168 4.17982 14.0851 0.916992 10.0002 0.916992V2.41699ZM10.6179 17.3061C10.2887 17.7002 9.71164 17.7002 9.38248 17.3061L8.23118 18.2676C9.15997 19.3797 10.8404 19.3797 11.7691 18.2676L10.6179 17.3061ZM11.7502 8.33366C11.7502 9.30016 10.9667 10.0837 10.0002 10.0837V11.5837C11.7951 11.5837 13.2502 10.1286 13.2502 8.33366H11.7502ZM10.0002 10.0837C9.03366 10.0837 8.25016 9.30016 8.25016 8.33366H6.75016C6.75016 10.1286 8.20524 11.5837 10.0002 11.5837V10.0837ZM8.25016 8.33366C8.25016 7.36716 9.03366 6.58366 10.0002 6.58366V5.08366C8.20524 5.08366 6.75016 6.53873 6.75016 8.33366H8.25016ZM10.0002 6.58366C10.9667 6.58366 11.7502 7.36716 11.7502 8.33366H13.2502C13.2502 6.53873 11.7951 5.08366 10.0002 5.08366V6.58366Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    Kuwait, Ahmad Al Jaber St, Kuwait City, Floor 12, City Tower
+                  </div>
+                </div>
+              </div>
+
+              <div class="footer-socials">
+                <h4 class="sm-title-block p-relative mb-10">Social Media</h4>
+                <ul class="dsn-socials box-social">
+                  <li>
+                    <a href="#0" target="_blank" class="badge-icon">
+                      <!-- <img src="assets/img/tik-tok.png" alt="" /> -->
+
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.5359 11.0075C9.71585 10.8916 7.84666 11.0834 6.93011 12.7782C6.01355 14.4729 6.9373 16.2368 7.51374 16.9069C8.08298 17.5338 9.89226 18.721 11.8114 17.5619C12.2871 17.2746 12.8797 17.0603 13.552 14.8153L13.4738 5.98145C13.3441 6.95419 14.4186 9.23575 17.478 9.5057"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#0" target="_blank" class="badge-icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.2185 6.78947H17.2095M3 12C3 7.75736 3 5.63604 4.31802 4.31802C5.63604 3 7.75736 3 12 3C16.2426 3 18.3639 3 19.682 4.31802C21 5.63604 21 7.75736 21 12C21 16.2426 21 18.3639 19.682 19.682C18.3639 21 16.2426 21 12 21C7.75736 21 5.63604 21 4.31802 19.682C3 18.3639 3 16.2426 3 12ZM16.2631 12C16.2631 14.3545 14.3545 16.2632 12 16.2632C9.6455 16.2632 7.73682 14.3545 7.73682 12C7.73682 9.64553 9.6455 7.73684 12 7.73684C14.3545 7.73684 16.2631 9.64553 16.2631 12Z"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <!-- <img src="assets/img/instagram.png" alt="" /> -->
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center">
+            <hr />
+            <div class="copyright">
+              <p>Copyright © 2025 - All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+
+        <!-- Email Popup  -->
+        <div class="popup-overlay" id="emailPopup">
+          <div class="email-popup">
+            <button class="close-popup">&times;</button>
+            <h3>Get The Book Now</h3>
+            <p>we will send the book directly to your email</p>
+            <form class="email-form">
+              <input type="email" placeholder="Your email..." required />
+              <button type="submit" class="btn-book">Send</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- video Popup  -->
+        <div id="video-popup-overlay" class="popup-vid-overlay">
+          <div class="popup-content">
+            <span id="close-popup">&times;</span>
+            <video id="video-popup" controls autoplay></video>
+          </div>
+        </div>
+
+        <!-- video Popup 2  -->
+        <div id="video-popup-overlay-2" class="popup-vid-overlay-2">
+          <div class="popup-content-2">
+            <span id="close-popup-2">&times;</span>
+            <video id="video-popup-2" controls autoplay></video>
+          </div>
+        </div>
+
+        <!-- Fly WhatsApp -->
+        <a href="https://wa.me/00000000" class="fly-whatsapp" target="_blank">
+          <img
+            class="whatsapp-img"
+            src="assets/img/whatsapp.png"
+            alt="WhatsApp"
+          />
+        </a>
+      </div>
+    </main>
+
+    <!-- ========== Cursor ========== -->
+    <div id="dsn_cursor" class="ball"></div>
+    <div id="dsn_cursor_inner" class="ball"></div>
+    <!-- ========== End Cursor ========== -->
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/plugins/dsn-grid.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
