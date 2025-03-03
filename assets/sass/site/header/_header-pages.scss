@@ -1,0 +1,77 @@
+
+
+.header-page {
+    padding-top: 240px;
+    background-image: url(../img/main-pattern.png);
+    background-position: center;
+    background-size: cover;
+    &.second-pattern {
+        background-image: url(../img/second-pattern-2.png);
+    }
+    @include media_991 {
+        padding-top: 190px;
+    }
+    
+    .box-content {
+        @include media_991 {
+            width: 100%;
+        }
+    }
+
+    .title-lg {
+        font-size: 200px;
+        line-height: 210px;
+
+        @include media_991 {
+            font-size: 100px;
+            line-height: 100px;
+            text-align: left;
+        }
+    }
+
+    .contact-links {
+        a {
+            padding-bottom: 20px;
+            border-bottom: 1px solid $border-color;
+
+            &:not(:last-of-type) {
+                margin-bottom: 20px;
+            }
+
+            .icon {
+
+                svg {
+                    fill: $heading-color;
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+
+        @include media_991 {
+            margin-left: 0;
+        }
+    }
+
+    .breadcrumbs {
+        font-weight: 500;
+        letter-spacing: 2px;
+        a {
+            color: $assistant-color;
+        }
+        .breadcrumbs_delimiter {
+            display: inline-block;
+            position: relative;
+            margin: 0 0.45em;
+            vertical-align: top;
+            text-align: center;
+
+            &:before {
+                content: '/';
+            }
+        }
+        span {
+            color: $heading-color;
+        }
+    }
+}
